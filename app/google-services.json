@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "343834257722",
+    "project_id": "tournament-app-c4e26",
+    "storage_bucket": "tournament-app-c4e26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343834257722:android:95ae67f8602c4c78554803",
+        "android_client_info": {
+          "package_name": "com.example.tournamentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343834257722-4ha2slrscb3bqk0pg3o7e3sai0qkm0do.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuRyEmfbRnj-MUulgLPrukF19eEk6VQ1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343834257722-4ha2slrscb3bqk0pg3o7e3sai0qkm0do.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

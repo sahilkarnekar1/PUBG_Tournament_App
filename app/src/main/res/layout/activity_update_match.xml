@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".UpdateMatchActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Match"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etUpdateMatchTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Match Title"
+                android:inputType="text"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etUpdateMatchType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Match Type"
+                android:inputType="text"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etUpdateMatchDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Match Date"
+                android:inputType="text"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etUpdateMatchEntry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Match Entry"
+                android:inputType="number"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etUpdateMatchTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Match Time"
+                android:inputType="text"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etUpdateMatchWin1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Winner 1"
+                android:inputType="text"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etUpdateMatchWin2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Winner 2"
+                android:inputType="text"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etUpdateMatchWin3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Winner 3"
+                android:inputType="text"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etUpdateMatchWin4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Winner 4"
+                android:inputType="text"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etUpdateMatchWin5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Winner 5"
+                android:inputType="text"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etUpdateMatchImageLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Image Link"
+                android:inputType="text"
+                android:layout_marginBottom="16dp" />
+            <EditText
+                android:id="@+id/etUpdateTotalPlayers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Total Players" />
+
+            <EditText
+                android:id="@+id/etUpdateJoinedPlayers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Joined Players" />
+
+            <Button
+                android:id="@+id/btnUpdateMatch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:background="@drawable/rounded_corner_button"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Room Id Password"
+                android:layout_marginTop="8dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etUpdateRoomId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Room ID" />
+
+            <EditText
+                android:id="@+id/etUpdateRoomPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Room Password" />
+
+            <Button
+                android:id="@+id/btnIdPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RoomId Pass"
+                android:background="@drawable/rounded_corner_button"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+
+
+
+
+</ScrollView>

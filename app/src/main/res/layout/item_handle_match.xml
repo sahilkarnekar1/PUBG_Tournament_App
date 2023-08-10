@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corner_background"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp">
+
+    <ImageView
+        android:id="@+id/tvHandleMatchImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvHandleMatchTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="start"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvHandleMatchType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="start"
+        android:layout_weight="1"
+        android:textColor="#666666"
+         />
+
+        <TextView
+            android:id="@+id/tvHandleMatchDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:textColor="#666666"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/tvHandleMatchEntryLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entry:"
+            android:gravity="start"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:textStyle="bold"
+             />
+        <TextView
+            android:id="@+id/tvHandleMatchTimeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time:"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/tvHandleMatchEntry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="start"
+            android:layout_weight="1"
+            android:textColor="#666666"
+             />
+
+        <TextView
+            android:id="@+id/tvHandleMatchTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:textColor="#666666"
+           />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvHandleMatchWinnersLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Winners:"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="#1:"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:layout_marginEnd="8dp" />
+        <TextView
+            android:id="@+id/tvHandleMatchWin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="#2:"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:layout_marginEnd="8dp" />
+        <TextView
+            android:id="@+id/tvHandleMatchWin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="#3:"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:layout_marginEnd="8dp" />
+        <TextView
+            android:id="@+id/tvHandleMatchWin3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="#4:"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:layout_marginEnd="8dp" />
+        <TextView
+            android:id="@+id/tvHandleMatchWin4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="#5:"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:layout_marginEnd="8dp" />
+        <TextView
+            android:id="@+id/tvHandleMatchWin5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvHandleJoinedPlayersLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joined Players:"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBarHandleJoinedPlayers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_bar_horizontal"
+        android:layout_marginTop="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/tvHandleJoinedPlayersCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="/"
+            android:textColor="#666666" />
+
+        <TextView
+            android:id="@+id/tvHandleTotalPlayersCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Delete Match"
+        android:background="@drawable/rounded_corner_button"
+        android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Update Match"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/rounded_corner_button"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="Room ID"
+                android:textColor="#666666"
+                android:layout_marginStart="8dp" />
+            <TextView
+                android:id="@+id/tvHandleMatchRoomId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+
+                android:textColor="#666666"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="Room Pass"
+                android:textColor="#666666"
+                android:layout_marginStart="8dp" />
+            <TextView
+                android:id="@+id/tvHandleMatchRoomPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#666666"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>
